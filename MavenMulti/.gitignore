@@ -6,9 +6,16 @@
 .idea/vcs.xml
 .idea/.gitignore
 .idea/gradle.xml
+.idea/encodings.xml
+.idea/misc.xml
 *.iws
 *.iml
 *.ipr
+
+./Database/target
+./Service/target
+./Web/target
+
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
