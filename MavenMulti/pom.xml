@@ -7,10 +7,15 @@
   <groupId>by.ivan101454</groupId>
   <artifactId>MavenMulti</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>MavenMulti</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  <modules>
+    <module>Database</module>
+    <module>Service</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
